@@ -25,7 +25,7 @@ import de.enough.glaze.ui.delegate.ManagerDelegate;
 public class AutoCompleteField extends
 		net.rim.device.api.ui.component.AutoCompleteField implements GzManager {
 
-	private final StyleManager styleManager;
+	private StyleManager styleManager;
 
 	public AutoCompleteField(BasicFilteredList filteredList) {
 		super(filteredList);
